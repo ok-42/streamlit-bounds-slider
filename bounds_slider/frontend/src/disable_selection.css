@@ -1,0 +1,48 @@
+.disable-text-selection {
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.MuiSlider-rail {
+   opacity: 1 !important;
+   background-color: var(--secondary-background-color) !important;
+}
+
+.MuiSlider-thumb {
+   border: 2px;
+   border-color: var(--primary-color) !important;
+   background-color: var(--background-color) !important;
+}
+
+.central-thumb {
+   border: 2px;
+   border-color: var(--primary-color) !important;
+   background-color: var(--primary-color) !important;
+}
+
+.MuiSlider-track {
+   border: none !important;
+   background-color: var(--primary-color) !important;
+}
+
+.MuiSlider-valueLabel {
+   color: var(--text-color) !important;
+}
+
+.MuiSlider-mark {
+   background-color: var(--secondary-background-color) !important;
+}
+
+.MuiSlider-markActive {
+   background-color: var(--primary-color) !important;
+}
+
+.MuiSlider-markLabel {
+   color: var(--text-color) !important;
+}
+
+.MuiCheckbox-colorPrimary {
+   color: var(--primary-color) !important;
+}
